@@ -21,7 +21,6 @@ with open(budget_csv) as csv_file:
 
         # Store data in arrays
         date.append(row[0])
-
         profit.append(int(row[1]))
 
 
